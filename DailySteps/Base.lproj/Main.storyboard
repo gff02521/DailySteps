@@ -167,7 +167,7 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAk-Jh-CEP" userLabel="GraphView" customClass="DailyStepsCellGraphView">
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAk-Jh-CEP" userLabel="GraphView" customClass="DailyStepsCellGraphView">
                                             <rect key="frame" x="77" y="4" width="238" height="64"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" red="0.070588235289999995" green="0.50980392159999999" blue="0.42352941179999998" alpha="0.0" colorSpace="calibratedRGB"/>
