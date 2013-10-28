@@ -43,4 +43,35 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Color
+
+//  アプリで共通して使う色
+- (UIColor*)darkColor
+{
+    return UIColorFromRGB(0x12826c);
+}
+
+- (UIColor*)lightColor
+{
+    return UIColorFromRGB(0x1abc9c);
+}
+
+- (UIColor*)lightDownColor
+{
+    return UIColorFromRGB(0x18ad8f);
+}
+
+- (UIColor*)textColor
+{
+    return UIColorFromRGB(0xffffff);
+}
+
+#pragma mark - Font
+
+//  アプリで共通して使うフォント
+- (UIFont*)naviTitleFont
+{
+    return [UIFont fontWithName:@"Futura-CondensedMedium" size:28.0];
+}
+
 @end

@@ -14,13 +14,20 @@
 		D5567577181D3BAE00583547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5567576181D3BAE00583547 /* main.m */; };
 		D556757B181D3BAE00583547 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D556757A181D3BAE00583547 /* AppDelegate.m */; };
 		D556757E181D3BAE00583547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D556757C181D3BAE00583547 /* Main.storyboard */; };
-		D5567581181D3BAE00583547 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5567580181D3BAE00583547 /* ViewController.m */; };
 		D5567583181D3BAE00583547 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5567582181D3BAE00583547 /* Images.xcassets */; };
 		D556758A181D3BAE00583547 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5567589181D3BAE00583547 /* XCTest.framework */; };
 		D556758B181D3BAE00583547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D556756A181D3BAE00583547 /* Foundation.framework */; };
 		D556758C181D3BAE00583547 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D556756E181D3BAE00583547 /* UIKit.framework */; };
 		D5567594181D3BAE00583547 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5567592181D3BAE00583547 /* InfoPlist.strings */; };
 		D5567596181D3BAE00583547 /* ActTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5567595181D3BAE00583547 /* ActTests.m */; };
+		D55675A2181E424600583547 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D55675A1181E424600583547 /* Settings.bundle */; };
+		D55675A6181E42CB00583547 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55675A5181E42CB00583547 /* MainTableViewController.m */; };
+		D55675A9181E43E100583547 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55675A8181E43E100583547 /* LaunchViewController.m */; };
+		D55675AD181E44CF00583547 /* UIApplication+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D55675AC181E44CF00583547 /* UIApplication+Utilities.m */; };
+		D55675B2181E4B5600583547 /* SorryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55675B1181E4B5600583547 /* SorryViewController.m */; };
+		D55675B4181E4BB700583547 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55675B3181E4BB700583547 /* CoreMotion.framework */; };
+		D55675B7181EB58200583547 /* DailyStepsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55675B6181EB58200583547 /* DailyStepsCell.m */; };
+		D55675BA181EB83A00583547 /* DailyStepsCellGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = D55675B9181EB83A00583547 /* DailyStepsCellGraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +41,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D5567567181D3BAE00583547 /* Act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Act.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5567567181D3BAE00583547 /* DailySteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailySteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D556756A181D3BAE00583547 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D556756C181D3BAE00583547 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D556756E181D3BAE00583547 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D5567572181D3BAE00583547 /* Act-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Act-Info.plist"; sourceTree = "<group>"; };
+		D5567572181D3BAE00583547 /* DailySteps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailySteps-Info.plist"; sourceTree = "<group>"; };
 		D5567574181D3BAE00583547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5567576181D3BAE00583547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5567578181D3BAE00583547 /* Act-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Act-Prefix.pch"; sourceTree = "<group>"; };
+		D5567578181D3BAE00583547 /* DailySteps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DailySteps-Prefix.pch"; sourceTree = "<group>"; };
 		D5567579181D3BAE00583547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D556757A181D3BAE00583547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D556757D181D3BAE00583547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D556757F181D3BAE00583547 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5567580181D3BAE00583547 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D5567582181D3BAE00583547 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D5567588181D3BAE00583547 /* ActTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5567588181D3BAE00583547 /* DailyStepsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyStepsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5567589181D3BAE00583547 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D5567591181D3BAE00583547 /* ActTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActTests-Info.plist"; sourceTree = "<group>"; };
+		D5567591181D3BAE00583547 /* DailyStepsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailyStepsTests-Info.plist"; sourceTree = "<group>"; };
 		D5567593181D3BAE00583547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5567595181D3BAE00583547 /* ActTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActTests.m; sourceTree = "<group>"; };
+		D55675A1181E424600583547 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D55675A4181E42CB00583547 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		D55675A5181E42CB00583547 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		D55675A7181E43E100583547 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		D55675A8181E43E100583547 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		D55675AB181E44CF00583547 /* UIApplication+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Utilities.h"; sourceTree = "<group>"; };
+		D55675AC181E44CF00583547 /* UIApplication+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Utilities.m"; sourceTree = "<group>"; };
+		D55675AF181E452A00583547 /* UtilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMacro.h; sourceTree = "<group>"; };
+		D55675B0181E4B5600583547 /* SorryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SorryViewController.h; sourceTree = "<group>"; };
+		D55675B1181E4B5600583547 /* SorryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SorryViewController.m; sourceTree = "<group>"; };
+		D55675B3181E4BB700583547 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D55675B5181EB58200583547 /* DailyStepsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyStepsCell.h; sourceTree = "<group>"; };
+		D55675B6181EB58200583547 /* DailyStepsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyStepsCell.m; sourceTree = "<group>"; };
+		D55675B8181EB83A00583547 /* DailyStepsCellGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyStepsCellGraphView.h; sourceTree = "<group>"; };
+		D55675B9181EB83A00583547 /* DailyStepsCellGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyStepsCellGraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55675B4181E4BB700583547 /* CoreMotion.framework in Frameworks */,
 				D556756D181D3BAE00583547 /* CoreGraphics.framework in Frameworks */,
 				D556756F181D3BAE00583547 /* UIKit.framework in Frameworks */,
 				D556756B181D3BAE00583547 /* Foundation.framework in Frameworks */,
@@ -82,8 +103,12 @@
 		D556755E181D3BAE00583547 = {
 			isa = PBXGroup;
 			children = (
-				D5567570181D3BAE00583547 /* Act */,
-				D556758F181D3BAE00583547 /* ActTests */,
+				D55675A1181E424600583547 /* Settings.bundle */,
+				D55675AE181E452A00583547 /* UtilityMacro */,
+				D55675AA181E44BA00583547 /* UtilitiesClasses */,
+				D55675A3181E426500583547 /* ViewControllers */,
+				D5567570181D3BAE00583547 /* DailySteps */,
+				D556758F181D3BAE00583547 /* DailyStepsTests */,
 				D5567569181D3BAE00583547 /* Frameworks */,
 				D5567568181D3BAE00583547 /* Products */,
 			);
@@ -92,8 +117,8 @@
 		D5567568181D3BAE00583547 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5567567181D3BAE00583547 /* Act.app */,
-				D5567588181D3BAE00583547 /* ActTests.xctest */,
+				D5567567181D3BAE00583547 /* DailySteps.app */,
+				D5567588181D3BAE00583547 /* DailyStepsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +126,7 @@
 		D5567569181D3BAE00583547 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D55675B3181E4BB700583547 /* CoreMotion.framework */,
 				D556756A181D3BAE00583547 /* Foundation.framework */,
 				D556756C181D3BAE00583547 /* CoreGraphics.framework */,
 				D556756E181D3BAE00583547 /* UIKit.framework */,
@@ -109,74 +135,106 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5567570181D3BAE00583547 /* Act */ = {
+		D5567570181D3BAE00583547 /* DailySteps */ = {
 			isa = PBXGroup;
 			children = (
 				D5567579181D3BAE00583547 /* AppDelegate.h */,
 				D556757A181D3BAE00583547 /* AppDelegate.m */,
 				D556757C181D3BAE00583547 /* Main.storyboard */,
-				D556757F181D3BAE00583547 /* ViewController.h */,
-				D5567580181D3BAE00583547 /* ViewController.m */,
 				D5567582181D3BAE00583547 /* Images.xcassets */,
 				D5567571181D3BAE00583547 /* Supporting Files */,
 			);
-			path = Act;
+			path = DailySteps;
 			sourceTree = "<group>";
 		};
 		D5567571181D3BAE00583547 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5567572181D3BAE00583547 /* Act-Info.plist */,
+				D5567572181D3BAE00583547 /* DailySteps-Info.plist */,
 				D5567573181D3BAE00583547 /* InfoPlist.strings */,
 				D5567576181D3BAE00583547 /* main.m */,
-				D5567578181D3BAE00583547 /* Act-Prefix.pch */,
+				D5567578181D3BAE00583547 /* DailySteps-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D556758F181D3BAE00583547 /* ActTests */ = {
+		D556758F181D3BAE00583547 /* DailyStepsTests */ = {
 			isa = PBXGroup;
 			children = (
 				D5567595181D3BAE00583547 /* ActTests.m */,
 				D5567590181D3BAE00583547 /* Supporting Files */,
 			);
-			path = ActTests;
+			path = DailyStepsTests;
 			sourceTree = "<group>";
 		};
 		D5567590181D3BAE00583547 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5567591181D3BAE00583547 /* ActTests-Info.plist */,
+				D5567591181D3BAE00583547 /* DailyStepsTests-Info.plist */,
 				D5567592181D3BAE00583547 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D55675A3181E426500583547 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D55675A7181E43E100583547 /* LaunchViewController.h */,
+				D55675A8181E43E100583547 /* LaunchViewController.m */,
+				D55675B0181E4B5600583547 /* SorryViewController.h */,
+				D55675B1181E4B5600583547 /* SorryViewController.m */,
+				D55675A4181E42CB00583547 /* MainTableViewController.h */,
+				D55675A5181E42CB00583547 /* MainTableViewController.m */,
+				D55675B5181EB58200583547 /* DailyStepsCell.h */,
+				D55675B6181EB58200583547 /* DailyStepsCell.m */,
+				D55675B8181EB83A00583547 /* DailyStepsCellGraphView.h */,
+				D55675B9181EB83A00583547 /* DailyStepsCellGraphView.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D55675AA181E44BA00583547 /* UtilitiesClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D55675AB181E44CF00583547 /* UIApplication+Utilities.h */,
+				D55675AC181E44CF00583547 /* UIApplication+Utilities.m */,
+			);
+			path = UtilitiesClasses;
+			sourceTree = "<group>";
+		};
+		D55675AE181E452A00583547 /* UtilityMacro */ = {
+			isa = PBXGroup;
+			children = (
+				D55675AF181E452A00583547 /* UtilityMacro.h */,
+			);
+			path = UtilityMacro;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5567566181D3BAE00583547 /* Act */ = {
+		D5567566181D3BAE00583547 /* DailySteps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5567599181D3BAE00583547 /* Build configuration list for PBXNativeTarget "Act" */;
+			buildConfigurationList = D5567599181D3BAE00583547 /* Build configuration list for PBXNativeTarget "DailySteps" */;
 			buildPhases = (
 				D5567563181D3BAE00583547 /* Sources */,
 				D5567564181D3BAE00583547 /* Frameworks */,
-				D5567565181D3BAE00583547 /* Resources */,
 				D556759F181E41AF00583547 /* Update Build Version */,
 				D55675A0181E41C000583547 /* Update Root.plist */,
+				D5567565181D3BAE00583547 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Act;
+			name = DailySteps;
 			productName = Act;
-			productReference = D5567567181D3BAE00583547 /* Act.app */;
+			productReference = D5567567181D3BAE00583547 /* DailySteps.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D5567587181D3BAE00583547 /* ActTests */ = {
+		D5567587181D3BAE00583547 /* DailyStepsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D556759C181D3BAE00583547 /* Build configuration list for PBXNativeTarget "ActTests" */;
+			buildConfigurationList = D556759C181D3BAE00583547 /* Build configuration list for PBXNativeTarget "DailyStepsTests" */;
 			buildPhases = (
 				D5567584181D3BAE00583547 /* Sources */,
 				D5567585181D3BAE00583547 /* Frameworks */,
@@ -187,9 +245,9 @@
 			dependencies = (
 				D556758E181D3BAE00583547 /* PBXTargetDependency */,
 			);
-			name = ActTests;
+			name = DailyStepsTests;
 			productName = ActTests;
-			productReference = D5567588181D3BAE00583547 /* ActTests.xctest */;
+			productReference = D5567588181D3BAE00583547 /* DailyStepsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5567562181D3BAE00583547 /* Build configuration list for PBXProject "Act" */;
+			buildConfigurationList = D5567562181D3BAE00583547 /* Build configuration list for PBXProject "DailySteps" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5567566181D3BAE00583547 /* Act */,
-				D5567587181D3BAE00583547 /* ActTests */,
+				D5567566181D3BAE00583547 /* DailySteps */,
+				D5567587181D3BAE00583547 /* DailyStepsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55675A2181E424600583547 /* Settings.bundle in Resources */,
 				D5567583181D3BAE00583547 /* Images.xcassets in Resources */,
 				D5567575181D3BAE00583547 /* InfoPlist.strings in Resources */,
 				D556757E181D3BAE00583547 /* Main.storyboard in Resources */,
@@ -259,7 +318,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#BuildCountをインクリメント\nBUILDCOUNT=$(/usr/libexec/PlistBuddy -c \"Print BuildCount\" $INFOPLIST_FILE)\nBUILDCOUNT=$(($BUILDCOUNT + 1))\n/usr/libexec/PlistBuddy -c \"Set :BuildCount $BUILDCOUNT\" $INFOPLIST_FILE\n\n#VersionにBuildCountをくっつけてBundleVersionに入れる\nSVERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $INFOPLIST_FILE)\nBUILD_VER=$SVERSION'.'$BUILDCOUNT\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_VER\" $INFOPLIST_FILE\n\n#gitHashを使ったバージョン情報を念のため入れておく\nGIT_HASH=$(/Applications/Xcode.app/Contents/Developer/usr/bin/git show --format='%h' -s)\nGIT_VER=$SVERSION'.'$GIT_HASH\n/usr/libexec/PlistBuddy -c \"Set :GitHashVersion $GIT_VER\" $INFOPLIST_FILE\n\n#最新情報をビルド結果にも反映\ncd \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app\"\n/usr/libexec/PlistBuddy -c \"Set :BuildCount $BN\" Info.plist\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_VER\" Info.plist\n/usr/libexec/PlistBuddy -c \"Set :GitHashVersion $GIT_VER\" Info.plist\n\n";
+			shellScript = "#BuildCountをインクリメント\nBUILDCOUNT=$(/usr/libexec/PlistBuddy -c \"Print BuildCount\" $INFOPLIST_FILE)\nBUILDCOUNT=$(($BUILDCOUNT + 1))\n/usr/libexec/PlistBuddy -c \"Set :BuildCount $BUILDCOUNT\" $INFOPLIST_FILE\n\n#VersionにBuildCountをくっつけてBundleVersionに入れる\nSVERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $INFOPLIST_FILE)\nBUILD_VER=$SVERSION'.'$BUILDCOUNT\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_VER\" $INFOPLIST_FILE\n\n#gitHashを使ったバージョン情報を念のため入れておく\nGIT_HASH=$(/Applications/Xcode.app/Contents/Developer/usr/bin/git show --format='%h' -s)\nGIT_VER=$SVERSION'.'$GIT_HASH\n/usr/libexec/PlistBuddy -c \"Set :GitHashVersion $GIT_VER\" $INFOPLIST_FILE\n\n#最新情報をビルド結果にも反映\n#cd \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app\"\n#/usr/libexec/PlistBuddy -c \"Set :BuildCount $BN\" Info.plist\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_VER\" Info.plist\n#/usr/libexec/PlistBuddy -c \"Set :GitHashVersion $GIT_VER\" Info.plist\n\n";
 		};
 		D55675A0181E41C000583547 /* Update Root.plist */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -282,9 +341,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5567581181D3BAE00583547 /* ViewController.m in Sources */,
 				D556757B181D3BAE00583547 /* AppDelegate.m in Sources */,
+				D55675AD181E44CF00583547 /* UIApplication+Utilities.m in Sources */,
+				D55675B2181E4B5600583547 /* SorryViewController.m in Sources */,
+				D55675BA181EB83A00583547 /* DailyStepsCellGraphView.m in Sources */,
 				D5567577181D3BAE00583547 /* main.m in Sources */,
+				D55675A6181E42CB00583547 /* MainTableViewController.m in Sources */,
+				D55675B7181EB58200583547 /* DailyStepsCell.m in Sources */,
+				D55675A9181E43E100583547 /* LaunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +365,7 @@
 /* Begin PBXTargetDependency section */
 		D556758E181D3BAE00583547 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5567566181D3BAE00583547 /* Act */;
+			target = D5567566181D3BAE00583547 /* DailySteps */;
 			targetProxy = D556758D181D3BAE00583547 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,9 +476,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Act/Act-Prefix.pch";
-				INFOPLIST_FILE = "Act/Act-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DailySteps/DailySteps-Prefix.pch";
+				INFOPLIST_FILE = "DailySteps/DailySteps-Info.plist";
+				PRODUCT_NAME = DailySteps;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -425,9 +489,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Act/Act-Prefix.pch";
-				INFOPLIST_FILE = "Act/Act-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DailySteps/DailySteps-Prefix.pch";
+				INFOPLIST_FILE = "DailySteps/DailySteps-Info.plist";
+				PRODUCT_NAME = DailySteps;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -448,8 +512,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ActTests/ActTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ActTests/DailyStepsTests-Info.plist";
+				PRODUCT_NAME = DailyStepsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -467,8 +531,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Act/Act-Prefix.pch";
-				INFOPLIST_FILE = "ActTests/ActTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ActTests/DailyStepsTests-Info.plist";
+				PRODUCT_NAME = DailyStepsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -477,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5567562181D3BAE00583547 /* Build configuration list for PBXProject "Act" */ = {
+		D5567562181D3BAE00583547 /* Build configuration list for PBXProject "DailySteps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5567597181D3BAE00583547 /* Debug */,
@@ -486,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5567599181D3BAE00583547 /* Build configuration list for PBXNativeTarget "Act" */ = {
+		D5567599181D3BAE00583547 /* Build configuration list for PBXNativeTarget "DailySteps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D556759A181D3BAE00583547 /* Debug */,
@@ -495,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D556759C181D3BAE00583547 /* Build configuration list for PBXNativeTarget "ActTests" */ = {
+		D556759C181D3BAE00583547 /* Build configuration list for PBXNativeTarget "DailyStepsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D556759D181D3BAE00583547 /* Debug */,
