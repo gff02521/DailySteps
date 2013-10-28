@@ -41,7 +41,6 @@
 {
     [super viewDidAppear:animated];
     
-    return;
     //  表示が完了したらM7チップがあるかどうか調べて、画面遷移する
     if([CMStepCounter isStepCountingAvailable] && [CMMotionActivityManager isActivityAvailable])
     {
