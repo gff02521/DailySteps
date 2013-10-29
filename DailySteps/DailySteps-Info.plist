@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildCount</key>
-	<string>53</string>
+	<string>54</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -23,10 +23,12 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>0.1.53</string>
+	<string>0.1.54</string>
 	<key>GitHashVersion</key>
-	<string>0.1.75c91fb</string>
+	<string>0.1.6ae5073</string>
 	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationExitsOnSuspend</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
